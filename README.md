@@ -13,5 +13,32 @@ As APIs possuem alguns elementos que servem à sua utilização:
     - DELETE: deleção (DELETE)   
 
  Para este projeto vamos usar o Node.js e o NPM (Node Package Manager).  
-- Node.js v20.13.0 LTS - Long Term Suport (versão estável)  
+- Node.js v20.13.0 LTS - Long Term Suport (versão estável)
 
+NPX -> Node Package eXecuter (Executor de pacote do Node)
+
+TO-DO (documentar):
+- Instalação e uso do Json Server: <https://github.com/typicode/json-server>
+- Criação do .gitignore
+- Utilidade dos arquivos package
+- Criação do script "start" no package.json
+- Observações em relação ao uso do JSON5 vs. JSON: <https://github.com/json5/json5>
+-Instalação das extensões para formatação de arquivo .json5
+- Chamada do script start com NPM ao invés do NPX
+- O que é o Chocolatey (e porque não instá-lo agora)
+
+### Instalção e uso do Json Server
+
+ O JSON Server é uma ferramenta que permite criar uma API REST completa com base em um arquivo JSON. Permite simular um servidor real sem a necessidade de configurar um banco de dados ou escrever código do lado do servidor. 
+
+
+
+### Criação do .gitignore
+
+ É utilizado para especificar quais arquivos e diretórios o Git deve ignorar ao rastrear as mudanças em um  
+ repositório. É útil para evitar que arquivos desnecessários, como arquivos de configuração locais, arquivos temporários e arquivos gerados durante a compilação, sejam incluídos no controle de versão.
+
+ Para criar um arquivo `.gitignore` basta ir a raiz do seu repositório Git e adicionar os padrões de arquivos e diretórios que você deseja ignorar.
+
+ 
+ 
