@@ -1,0 +1,22 @@
+{
+  "posts": [
+    { "id": "1",
+     "title": "a title", 
+     "views": 100 
+    },
+    { "id": "2", 
+    "title": "another title", 
+    "views": 200 }
+  ],
+  "produtos": [
+    {
+      "id": "77be"
+    },
+    {
+      "id":"1",
+      "descricao": "Halls de hortelã",
+      "preco": 3.0
+    }
+  ]
+}
+  

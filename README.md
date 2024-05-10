@@ -9,7 +9,7 @@ As APIs possuem alguns elementos que servem à sua utilização:
 - **Métodos**: são os modos de consumo de uma API, que podem ser:
     - POST: inserção (CREATE)          
     - GET: consulta/leitura (READ)      
-    - UPTADE: atualização (UPTADE)        
+    - PUT: atualização (UPTADE)        
     - DELETE: deleção (DELETE)   
 
  Para este projeto vamos usar o Node.js e o NPM (Node Package Manager).  
@@ -35,13 +35,18 @@ TO-DO (documentar):
 
 ### Criação do .gitignore
 
- É utilizado para especificar quais arquivos e diretórios o Git deve ignorar ao rastrear as mudanças em um  
- repositório. É útil para evitar que arquivos desnecessários, como arquivos de configuração locais, arquivos temporários e arquivos gerados durante a compilação, sejam incluídos no controle de versão.
+ É utilizado para especificar quais arquivos e diretórios o Git deve ignorar ao rastrear as mudanças em um repositório. É útil para evitar que arquivos desnecessários, como arquivos de configuração locais, arquivos temporários e arquivos gerados durante a compilação, sejam incluídos no controle de versão. Criamos este arquivo para ocultar a pasta `"node_modules"` do pacote JSON Server. 
 
- Para criar um arquivo `.gitignore` basta ir a raiz do seu repositório Git e adicionar os padrões de arquivos e diretórios que você deseja ignorar.
+###  Utilidade dos arquivos package
+ 
+ Instalando o pacote do Json Server, os arquivos package.json e package-lock.json são adquiridos e são responsáveis por diversas funções do Node.js.
+
+ **Package-lock.json**: 
+ **Package.json**:
 
 
-Da aul de sexta (10/05):
+
+Da aula de sexta (10/05):
 - Instalação de dependencias de projeto com o comando npm install
  
  
