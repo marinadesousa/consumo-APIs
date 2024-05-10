@@ -40,5 +40,8 @@ TO-DO (documentar):
 
  Para criar um arquivo `.gitignore` basta ir a raiz do seu repositório Git e adicionar os padrões de arquivos e diretórios que você deseja ignorar.
 
+
+Da aul de sexta (10/05):
+- Instalação de dependencias de projeto com o comando npm install
  
  
