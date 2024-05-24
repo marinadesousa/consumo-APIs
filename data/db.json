@@ -1,22 +1,14 @@
 {
-  "posts": [
-    { "id": "1",
-     "title": "a title", 
-     "views": 100 
-    },
-    { "id": "2", 
-    "title": "another title", 
-    "views": 200 }
-  ],
   "produtos": [
     {
-      "id": "77be"
+      "id": "fd25",
+      "descricao": "Halls de hortelã",
+      "preco": 3
     },
     {
-      "id":"1",
-      "descricao": "Halls de hortelã",
-      "preco": 3.0
+      "id": "5ce5",
+      "descricao": "Quebra-queixo",
+      "preco": 0.4
     }
   ]
 }
-  

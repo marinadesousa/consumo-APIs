@@ -48,5 +48,30 @@ TO-DO (documentar):
 
 Da aula de sexta (10/05):
 - Instalação de dependencias de projeto com o comando npm install
+
+## Requisição 
+
+Para criar uma nova requisição, podemos utilizar a função fetch API.
+
+~~~js
+fetch(requisicao)   
+    .then(resposta => resposta.json())
+    .then(resposta => { ... });
+~~~
+
+Utilizamos `new Request()` para _instaciar_ a interface `Request()` 
+na variável `requisicao`, de forma que ela se torna um objeto com os 
+métodos exigidos por essa interface.
+
+A requisição é constituída por duas partes: uma URL e 
+um objeto JSON contendo as opções da requisição.
+- **URL**: é o endereço do recurso que você deseja acessar.
+- **Objeto JSON**: é um objeto que contém as opções da requisição, como o método HTTP (GET, POST, PUT, DELETE, etc.), headers, body, etc.
+
+`method` define o método 
+da requisição (nesse caso, GET, POST, PUT, DELETE, etc.) 
+e `headers` define os cabeçalhos da requisição. `Content-type`
+define o tipo de conteúdo que está sendo enviado, nesse caso `application/json`.
+
  
  
