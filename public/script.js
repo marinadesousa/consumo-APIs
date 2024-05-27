@@ -10,22 +10,23 @@ const requisicao = new Request('http://localhost:3000/produtos', {
 fetch(requisicao)   
     .then(resposta => resposta.json())
     .then(resposta => { 
-        const div = document.createElement('div');
+        const ul = document.createElement('div');
 
         resposta.forEach(produto => { 
-            const pDescricao = document.createElement('p');
-            pDescricao.innerHTML = produto.descricao;
 
-            const pId = document.createElement ('p');
-            pId.innerHTML = produto.id;
+            const liId = document.createElement ('li');
+            liId.innerHTML = produto.id;
 
-            const pPreco = document.createElement('p');
-            pPreco.innerHTML = produto.preco;
+            const liDescricao = document.createElement('li');
+            liDescricao.innerHTML = produto.descricao;
 
-            div.append(pId, pDescricao, pPreco);
+            const liPreco = document.createElement('li');
+            liPreco.innerHTML = produto.preco;
+
+            ul.append(liId, liDescricao, liPreco);
         });
 
-        document.body.appendChild(div);
+        document.body.appendChild(ul);
 
 
     });
